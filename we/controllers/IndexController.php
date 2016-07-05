@@ -5,7 +5,7 @@ use Yii;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
-use app\models\index;
+use app\models\Index;
 class IndexController extends Controller{
     public $layout='nav2.php';
     public $enableCsrfValidation = false;
